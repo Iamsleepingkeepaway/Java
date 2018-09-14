@@ -1,3 +1,4 @@
+1.
 public class Test1{
 public static void main(String args[]){
 int i=99;
@@ -22,3 +23,26 @@ System.out.println("No bottle of beer on the wall.");
 }
 }
 }
+
+2.
+public class Arr{
+public static void main(String args[]){
+int a[]={1,2,3,4};
+System.out.println(a[4]);
+}
+}
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+        at Arr.main(Arr.java:4)
+  
+3.
+class test{
+public static void main(String[] args){
+String c="abc";
+String a=c;
+c="efg";
+System.out.println(a);
+}
+}
+
+abc
