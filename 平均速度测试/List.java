@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.ArrayList;
 public class List {
 public static void main(String args[]) {
@@ -20,6 +19,6 @@ public static void main(String args[]) {
 		time=time+t;
 	}
 	
-	System.out.println("平均查询速度为："+time/n+"ns");
+	System.out.println("脝陆戮霉虏茅脩炉脣脵露脠脦陋拢潞"+time/n+"ns");
 }
 }
